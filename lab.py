@@ -1,0 +1,7 @@
+s=input()
+s=s.strip()
+b=s.split()
+c=set(b)
+d=list(c)
+d.sort()
+print(' '.join(d))
